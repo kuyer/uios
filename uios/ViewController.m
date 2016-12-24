@@ -44,6 +44,7 @@
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Tip" message:timeText preferredStyle:UIAlertControllerStyleAlert];
     [alertController addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         NSLog(@"clicked.");
+        
     }]];
     [self presentViewController:alertController animated:true completion:nil];
 }
@@ -51,6 +52,10 @@
 -(IBAction)login:(id)sender {
     NSString *accountText = [_accountEdit text];
     [_resultLabel setText:accountText];
+}
+
+-(IBAction)toNext:(id)sender {
+    [self performSegueWithIdentifier:@"ToImagePage" sender:self];
 }
 
 @end

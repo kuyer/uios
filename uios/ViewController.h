@@ -17,6 +17,7 @@
 
 -(IBAction)changeColor:(id)sender;
 -(IBAction)login:(id)sender;
+-(IBAction)toNext:(id)sender;
 
 @end
 
