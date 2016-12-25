@@ -21,6 +21,12 @@
 		98C119B01E0F6390003C9824 /* 03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C119AB1E0F6390003C9824 /* 03.jpeg */; };
 		98C119B11E0F6390003C9824 /* 04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C119AC1E0F6390003C9824 /* 04.jpeg */; };
 		98C119B21E0F6390003C9824 /* 05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C119AD1E0F6390003C9824 /* 05.jpeg */; };
+		98C119BA1E0F86F0003C9824 /* hongyanjiu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B41E0F86F0003C9824 /* hongyanjiu.mp3 */; };
+		98C119BB1E0F86F0003C9824 /* meilideshenhua.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B51E0F86F0003C9824 /* meilideshenhua.mp3 */; };
+		98C119BC1E0F86F0003C9824 /* menghuiyouxian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B61E0F86F0003C9824 /* menghuiyouxian.mp3 */; };
+		98C119BD1E0F86F0003C9824 /* pianpianxihuanni.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B71E0F86F0003C9824 /* pianpianxihuanni.mp3 */; };
+		98C119BE1E0F86F0003C9824 /* qizhi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B81E0F86F0003C9824 /* qizhi.mp3 */; };
+		98C119BF1E0F86F0003C9824 /* zhengjiu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B91E0F86F0003C9824 /* zhengjiu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,12 @@
 		98C119AB1E0F6390003C9824 /* 03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 03.jpeg; path = ../../../../../Downloads/03.jpeg; sourceTree = "<group>"; };
 		98C119AC1E0F6390003C9824 /* 04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 04.jpeg; path = ../../../../../Downloads/04.jpeg; sourceTree = "<group>"; };
 		98C119AD1E0F6390003C9824 /* 05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 05.jpeg; path = ../../../../../Downloads/05.jpeg; sourceTree = "<group>"; };
+		98C119B41E0F86F0003C9824 /* hongyanjiu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hongyanjiu.mp3; path = ../../../../../Downloads/hongyanjiu.mp3; sourceTree = "<group>"; };
+		98C119B51E0F86F0003C9824 /* meilideshenhua.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meilideshenhua.mp3; path = ../../../../../Downloads/meilideshenhua.mp3; sourceTree = "<group>"; };
+		98C119B61E0F86F0003C9824 /* menghuiyouxian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = menghuiyouxian.mp3; path = ../../../../../Downloads/menghuiyouxian.mp3; sourceTree = "<group>"; };
+		98C119B71E0F86F0003C9824 /* pianpianxihuanni.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pianpianxihuanni.mp3; path = ../../../../../Downloads/pianpianxihuanni.mp3; sourceTree = "<group>"; };
+		98C119B81E0F86F0003C9824 /* qizhi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qizhi.mp3; path = ../../../../../Downloads/qizhi.mp3; sourceTree = "<group>"; };
+		98C119B91E0F86F0003C9824 /* zhengjiu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zhengjiu.mp3; path = ../../../../../Downloads/zhengjiu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,7 @@
 		98A608861E0E64A400E08754 /* uios */ = {
 			isa = PBXGroup;
 			children = (
+				98C119B31E0F86C8003C9824 /* Audios */,
 				98C119A81E0F62FA003C9824 /* Images */,
 				98A6088A1E0E64A400E08754 /* AppDelegate.h */,
 				98A6088B1E0E64A400E08754 /* AppDelegate.m */,
@@ -166,6 +179,19 @@
 				98C119AD1E0F6390003C9824 /* 05.jpeg */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		98C119B31E0F86C8003C9824 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				98C119B41E0F86F0003C9824 /* hongyanjiu.mp3 */,
+				98C119B51E0F86F0003C9824 /* meilideshenhua.mp3 */,
+				98C119B61E0F86F0003C9824 /* menghuiyouxian.mp3 */,
+				98C119B71E0F86F0003C9824 /* pianpianxihuanni.mp3 */,
+				98C119B81E0F86F0003C9824 /* qizhi.mp3 */,
+				98C119B91E0F86F0003C9824 /* zhengjiu.mp3 */,
+			);
+			name = Audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +305,15 @@
 				98C119B01E0F6390003C9824 /* 03.jpeg in Resources */,
 				98C119AE1E0F6390003C9824 /* 01.jpeg in Resources */,
 				98C119AF1E0F6390003C9824 /* 02.jpeg in Resources */,
+				98C119BE1E0F86F0003C9824 /* qizhi.mp3 in Resources */,
 				98A608971E0E64A400E08754 /* LaunchScreen.storyboard in Resources */,
 				98A608941E0E64A400E08754 /* Assets.xcassets in Resources */,
+				98C119BF1E0F86F0003C9824 /* zhengjiu.mp3 in Resources */,
+				98C119BA1E0F86F0003C9824 /* hongyanjiu.mp3 in Resources */,
 				98A608921E0E64A400E08754 /* Main.storyboard in Resources */,
+				98C119BB1E0F86F0003C9824 /* meilideshenhua.mp3 in Resources */,
+				98C119BD1E0F86F0003C9824 /* pianpianxihuanni.mp3 in Resources */,
+				98C119BC1E0F86F0003C9824 /* menghuiyouxian.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
