@@ -16,6 +16,11 @@
 		98A608A21E0E64A400E08754 /* uiosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A608A11E0E64A400E08754 /* uiosTests.m */; };
 		98A608AD1E0E64A400E08754 /* uiosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A608AC1E0E64A400E08754 /* uiosUITests.m */; };
 		98A608F81E0ECA0800E08754 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A608F71E0ECA0800E08754 /* ImageViewController.m */; };
+		98C119AE1E0F6390003C9824 /* 01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C119A91E0F6390003C9824 /* 01.jpeg */; };
+		98C119AF1E0F6390003C9824 /* 02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C119AA1E0F6390003C9824 /* 02.jpeg */; };
+		98C119B01E0F6390003C9824 /* 03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C119AB1E0F6390003C9824 /* 03.jpeg */; };
+		98C119B11E0F6390003C9824 /* 04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C119AC1E0F6390003C9824 /* 04.jpeg */; };
+		98C119B21E0F6390003C9824 /* 05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98C119AD1E0F6390003C9824 /* 05.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,11 @@
 		98A608AE1E0E64A400E08754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98A608F61E0ECA0800E08754 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		98A608F71E0ECA0800E08754 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		98C119A91E0F6390003C9824 /* 01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 01.jpeg; path = ../../../../../Downloads/01.jpeg; sourceTree = "<group>"; };
+		98C119AA1E0F6390003C9824 /* 02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 02.jpeg; path = ../../../../../Downloads/02.jpeg; sourceTree = "<group>"; };
+		98C119AB1E0F6390003C9824 /* 03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 03.jpeg; path = ../../../../../Downloads/03.jpeg; sourceTree = "<group>"; };
+		98C119AC1E0F6390003C9824 /* 04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 04.jpeg; path = ../../../../../Downloads/04.jpeg; sourceTree = "<group>"; };
+		98C119AD1E0F6390003C9824 /* 05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 05.jpeg; path = ../../../../../Downloads/05.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,7 @@
 		98A608861E0E64A400E08754 /* uios */ = {
 			isa = PBXGroup;
 			children = (
+				98C119A81E0F62FA003C9824 /* Images */,
 				98A6088A1E0E64A400E08754 /* AppDelegate.h */,
 				98A6088B1E0E64A400E08754 /* AppDelegate.m */,
 				98A6088D1E0E64A400E08754 /* ViewController.h */,
@@ -143,6 +154,18 @@
 				98A608AE1E0E64A400E08754 /* Info.plist */,
 			);
 			path = uiosUITests;
+			sourceTree = "<group>";
+		};
+		98C119A81E0F62FA003C9824 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				98C119A91E0F6390003C9824 /* 01.jpeg */,
+				98C119AA1E0F6390003C9824 /* 02.jpeg */,
+				98C119AB1E0F6390003C9824 /* 03.jpeg */,
+				98C119AC1E0F6390003C9824 /* 04.jpeg */,
+				98C119AD1E0F6390003C9824 /* 05.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C119B21E0F6390003C9824 /* 05.jpeg in Resources */,
+				98C119B11E0F6390003C9824 /* 04.jpeg in Resources */,
+				98C119B01E0F6390003C9824 /* 03.jpeg in Resources */,
+				98C119AE1E0F6390003C9824 /* 01.jpeg in Resources */,
+				98C119AF1E0F6390003C9824 /* 02.jpeg in Resources */,
 				98A608971E0E64A400E08754 /* LaunchScreen.storyboard in Resources */,
 				98A608941E0E64A400E08754 /* Assets.xcassets in Resources */,
 				98A608921E0E64A400E08754 /* Main.storyboard in Resources */,

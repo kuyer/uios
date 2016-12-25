@@ -10,4 +10,10 @@
 
 @interface ImageViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *pageLabel;
+
+-(IBAction)toPrevImage:(id)sender;
+-(IBAction)toNextImage:(id)sender;
+
 @end
