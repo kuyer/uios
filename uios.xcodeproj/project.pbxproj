@@ -27,6 +27,7 @@
 		98C119BD1E0F86F0003C9824 /* pianpianxihuanni.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B71E0F86F0003C9824 /* pianpianxihuanni.mp3 */; };
 		98C119BE1E0F86F0003C9824 /* qizhi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B81E0F86F0003C9824 /* qizhi.mp3 */; };
 		98C119BF1E0F86F0003C9824 /* zhengjiu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98C119B91E0F86F0003C9824 /* zhengjiu.mp3 */; };
+		98D8E31E1E12B9CA0076499B /* SchulteGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D8E31D1E12B9CA0076499B /* SchulteGridViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		98C119B71E0F86F0003C9824 /* pianpianxihuanni.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pianpianxihuanni.mp3; path = ../../../../../Downloads/pianpianxihuanni.mp3; sourceTree = "<group>"; };
 		98C119B81E0F86F0003C9824 /* qizhi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = qizhi.mp3; path = ../../../../../Downloads/qizhi.mp3; sourceTree = "<group>"; };
 		98C119B91E0F86F0003C9824 /* zhengjiu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zhengjiu.mp3; path = ../../../../../Downloads/zhengjiu.mp3; sourceTree = "<group>"; };
+		98D8E31C1E12B9CA0076499B /* SchulteGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchulteGridViewController.h; sourceTree = "<group>"; };
+		98D8E31D1E12B9CA0076499B /* SchulteGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchulteGridViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				98A608871E0E64A400E08754 /* Supporting Files */,
 				98A608F61E0ECA0800E08754 /* ImageViewController.h */,
 				98A608F71E0ECA0800E08754 /* ImageViewController.m */,
+				98D8E31C1E12B9CA0076499B /* SchulteGridViewController.h */,
+				98D8E31D1E12B9CA0076499B /* SchulteGridViewController.m */,
 			);
 			path = uios;
 			sourceTree = "<group>";
@@ -338,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D8E31E1E12B9CA0076499B /* SchulteGridViewController.m in Sources */,
 				98A6088F1E0E64A400E08754 /* ViewController.m in Sources */,
 				98A6088C1E0E64A400E08754 /* AppDelegate.m in Sources */,
 				98A608F81E0ECA0800E08754 /* ImageViewController.m in Sources */,
